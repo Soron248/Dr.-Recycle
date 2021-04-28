@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  font-family: "Roboto", sans-serif;
+}
+header {
+  text-align: center;
+}
+header img {
+  width: 150px;
+  height: 150px;
+}
+header h1 {
+  font-weight: bolder;
+  color: orange;
+  font-size: 50px;
+}
+main {
+  text-align: center;
+}
+main h2 {
+  margin: 20px auto;
+  color: orangered;
+  font-weight: bolder;
+}
+main .pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .pic img {
+  width: 300px;
+  height: 350px;
+}
+main .pic .p1 {
+  margin: 0 50px;
+  width: 310px;
+  height: 360px;
+  border: 5px solid orangered;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .price {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .price .pr1 {
+  background-color: orangered;
+  margin: 0 170px;
+  color: whitesmoke;
+  font-weight: bolder;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+footer h3 {
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+  color: black;
+  border-bottom: 5px solid green;
+}
+footer a i {
+  font-size: 30px;
+  margin: 15px 20px;
+  color: black;
+}
+#i1:hover {
+  color: yellow;
+}
+#i2:hover {
+  color: lime;
+}
+#i3:hover {
+  color: red;
+}
